@@ -1,6 +1,6 @@
-# gcc-libs
-
 [![Build Status](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_apis/build/status/chef-base-plans.gcc-libs?branchName=master)](https://dev.azure.com/chefcorp-partnerengineering/Chef%20Base%20Plans/_build/latest?definitionId=152&branchName=master)
+
+# gcc-libs
 
 The GNU Compiler Collection
 
@@ -10,8 +10,8 @@ The GNU Compiler Collection
 
 ## Type of Package
 
-Binary package
+Library package
 
 ## Usage
 
-*TODO: Add instructions for usage*
+Library packages are typically set as build time dependencies. See [Defining your dependencies](https://www.habitat.sh/docs/developing-packages/developing-packages/#sts=Define%20Your%20Dependencies) for more information.
