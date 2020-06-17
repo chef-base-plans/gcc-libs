@@ -22,7 +22,7 @@ control 'core-plans-gcc-libs' do
 
   target_dir = File.join(hab_pkg_path.stdout.strip, base_dir)
 
-  list_files = command("ls -al #{target_dir}") do
+  list_files = command("ls -al #{target_dir}")
   describe list_files do
     its('stdout') { should_not be_empty }
     its('stderr') { should eq '' }
